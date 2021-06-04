@@ -1,10 +1,11 @@
 from model_2 import Answerer
 from telethon import TelegramClient, events
-api_id = 3571461
-api_hash = '45e60c503fcdb6f9a0fcc572e97fbcb4'
+api_id = ******
+api_hash = '18c60c5035fcbdb7f9a0fvc132e89fbcv4'
 client = TelegramClient('anon', api_id, api_hash)
-# to_whome = ["Totoro", "Looooolllжоржеттта!!!!"]
-to_whome = [204658931, 291115490]
+# to_whome = ["User1", "User2"] with whom you want to communicate while session
+to_whome = [224657931, 251115480]
+#pretrained model
 answerer = Answerer()
 
 
