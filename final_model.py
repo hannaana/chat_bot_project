@@ -1,9 +1,9 @@
-from model_2 import Answerer
+from dialo_gpt_large import Answerer
 from telethon import TelegramClient, events
 api_id = ******
 api_hash = '18c60c5035fcbdb7f9a0fvc132e89fbcv4'
 client = TelegramClient('anon', api_id, api_hash)
-# to_whome = ["User1", "User2"] with whom you want to communicate while session
+# to_whome = "User1", "User2" chat id with whom you want to communicate while session
 to_whome = [224657931, 251115480]
 #pretrained model
 answerer = Answerer()
